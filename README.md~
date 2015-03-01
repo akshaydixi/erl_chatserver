@@ -1,7 +1,7 @@
 erl_chatserver
 ==============
 
-A simple erlang chatserver with a small easter egg that if you enter ```\{POKEMON_NAME}```, the server will broadcast the description of the Pokemon to all those who are connected to the server at that point.
+A simple erlang chatserver with a small easter egg that if you enter /{POKEMON_NAME}, the server will broadcast the description of the Pokemon to all those who are connected to the server at that point.
 
 Instructions
 ------------

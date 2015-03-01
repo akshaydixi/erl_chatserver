@@ -18,7 +18,7 @@ server(Clients) ->
       server(lists:delete(Client, Clients));
     {broadcast, Client, Message} ->
       case Message of
-        [$/|Pokemon] -> 
+        [$\\ |Pokemon] -> 
           try getPokemon(Pokemon) of
             Pkmn -> message(Pkmn, Clients)
           catch
